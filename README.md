@@ -27,7 +27,7 @@ Auto Code Uploader is a Chrome extension that automatically uploads solved codin
 
 Clone this repository:
 
-git clone https://github.com/your-repo/auto-code-uploader.git
+git clone https://github.com/your-repo/code-to-github.git
 
 Open Chrome and go to chrome://extensions/.
 
@@ -61,7 +61,7 @@ The extension extracts the problem title, code, and language.
 
 It formats the file as:
 
-solutions/YYYY/MM/DD/problem-title.extension
+>  solutions/YYYY/MM/DD/problem-title.extension
 
 The file is committed to your GitHub repository!
 

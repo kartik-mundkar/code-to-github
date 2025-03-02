@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    border: solid black 1px;
+    border-radius: 5px;
+    background: #3c3c3c;
+    color: #ffffff;
+    margin: auto;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    gap: 10px;
+    /* border: 2px solid #333; */
+    /* height: 100vh; */
+}
+.wrapper div{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper div input{
+    width: 70%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+#GitConfig{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    padding: 10px;
+    /* margin-top: 15px; */
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#status {
+    margin-top: 10px;
+    font-weight: bold;
+}

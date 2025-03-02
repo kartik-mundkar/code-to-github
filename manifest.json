@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Code Uploader",
+    "version": "1.0",
+    "description": "Uploads solved coding problems to GitHub.",
+    "permissions": [
+        "storage",
+        "identity",
+        "scripting",
+        "alarms"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "https://leetcode.com/*",
+        "https://www.geeksforgeeks.org/*",
+        "https://practice.geeksforgeeks.org/*",
+        "https://api.github.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://leetcode.com/problems/*",
+                "https://www.geeksforgeeks.org/problems/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Code Uploader</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js" defer></script>
+</head>
+
+<body>
+    <h1>Code Uploader</h1>
+    <div id="GitConfig">
+        <h2>GitHub Configuration </h2>
+        <button id="saveData">Save Data</button>
+    </div>
+
+    <div class="wrapper">
+        <div>
+            <label for="githubUserName">User Name:</label>
+            <input type="text" id="githubUserName" placeholder="Enter GitHub User Name">
+        </div>
+        <div>
+            <label for="githubRepo">Repo Name:</label>
+            <input type="text" id="githubRepo" placeholder="Enter GitHub Repo Name">
+        </div>
+        <div>
+            <label for="githubToken">Token:</label>
+            <input type="text" id="githubToken" placeholder="Enter GitHub Token">
+        </div>
+    </div>
+    <p id="tokenStatus"></p>
+    <p id="status"></p>
+</body>
+
+</html>

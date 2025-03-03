@@ -4,22 +4,20 @@ Chrome extension to automate the task of uploading the solution to coding proble
 
 ## 🚀 Overview
 
-Auto Code Uploader is a Chrome extension that automatically uploads solved coding problems from LeetCode and GeeksforGeeks to a GitHub repository. The extension extracts the problem title, code, and language, then organizes solutions in a structured GitHub repository.
+*code-to-github* is a Chrome extension that automatically uploads solved coding problems from LeetCode and GeeksforGeeks to a GitHub repository. The extension extracts the problem title, code, and language, then organizes solutions in a structured GitHub repository.
 
 
 ## 📌 Features
 
-✅ Supports LeetCode & GeeksforGeeks (more platforms coming soon!)
+✅ Supports LeetCode & GeeksforGeeks.
 
-✅ Auto-extracts problem title & code
+✅ Auto-extracts problem title & code.
 
-✅ Draggable 'Upload to GitHub' button for easy access
+✅ Draggable 'Upload to GitHub' button for easy access.
 
-✅ Secure authentication using GitHub App (no manual tokens required)
+✅ Uploads solutions into date-wise structured folders.
 
-✅ Uploads solutions into date-wise structured folders
-
-✅ Success & failure notifications with toasts
+✅ Success & failure notifications with toasts.
 
 ## 🔧 Installation Guide
 
@@ -37,7 +35,7 @@ Click Load Unpacked and select the cloned repository folder.
 
 The extension is now installed! 🎉
 
-### 2️⃣ Set Up GitHub Integration ( Use a Personal Access Token )
+### 2️⃣ Set Up GitHub Integration ( Use a Personal Access Token (Fine-grained) )
 
 Go to GitHub Personal Access Tokens and generate a token with repo scope.
 

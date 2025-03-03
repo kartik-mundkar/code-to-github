@@ -1,6 +1,6 @@
 chrome.runtime.onInstalled.addListener(() => {
     console.log("Extension Installed!");
-    // chrome.storage.local.set({ githubToken: "", githubUsername: "", githubRepo: "" });
+    chrome.storage.local.set({ githubToken: "", githubUsername: "", githubRepo: "" });
     chrome.storage.local.set({ buttonPosition: { x: 20, y: 50 } });
 });
 
